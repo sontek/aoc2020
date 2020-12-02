@@ -2,6 +2,7 @@
 import contextlib
 import time
 
+
 @contextlib.contextmanager
 def timing(name=''):
     before = time.time()
