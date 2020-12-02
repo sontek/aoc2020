@@ -6,6 +6,7 @@ from support import timing
 here = os.path.dirname(os.path.realpath(__file__))
 default_file = os.path.join(here, "input.txt")
 
+
 def compute(lines):
     # TODO: implement solution here!
     return 0
