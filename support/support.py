@@ -1,7 +1,6 @@
 # https://github.com/anthonywritescode/aoc2020
 import contextlib
 import time
-from typing import Generator
 
 
 @contextlib.contextmanager

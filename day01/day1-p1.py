@@ -6,6 +6,7 @@ from support import timing
 here = os.path.dirname(os.path.realpath(__file__))
 default_file = os.path.join(here, "input.txt")
 
+
 def compute(lines):
     for line1 in lines:
         for line2 in lines[::1]:
@@ -13,6 +14,7 @@ def compute(lines):
             i2 = int(line2)
             if i1 + i2 == 2020:
                 return i1 * i2
+
 
 @pytest.mark.parametrize(
     ('input_s', 'expected'),

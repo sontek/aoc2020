@@ -32,6 +32,7 @@ TEST_INPUTS = '''\
 2-9 c: ccccccccc
 '''
 
+
 @pytest.mark.parametrize(
     ('input_s', 'expected'),
     (
