@@ -1,3 +1,4 @@
+# I grabbed Anthony's template for AOC at day00
 # https://github.com/anthonywritescode/aoc2020
 import contextlib
 import time
